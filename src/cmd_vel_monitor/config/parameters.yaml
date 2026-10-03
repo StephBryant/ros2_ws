@@ -1,0 +1,7 @@
+# 机器人速度安全限制
+safety_node:
+  ros__parameters:
+    # 线速度上限，单位 m/s
+    max_linear_vel: 0.5
+    # 角速度上限，单位 rad/s
+    max_angular_vel: 1.0
